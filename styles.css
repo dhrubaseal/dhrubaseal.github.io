@@ -138,39 +138,8 @@ p {
 /* Projects Section */
 .projects {
     padding: 100px 0;
-    background: var(--dark);
-}
-
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2.5rem;
-}
-
-.project-card {
-    background: var(--darker-gray);
-    border: var(--border);
-    padding: 2.5rem;
-}
-
-.project-title {
-    color: var(--white);
-    margin-bottom: 1rem;
-}
-
-.project-tech {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 1.5rem;
-}
-
-.tech-tag {
-    background: var(--dark-gray);
-    color: var(--silver);
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
-    border: var(--border);
+    background: var(--black);
+    position: relative;
 }
 
 /* Enhanced Experience Section Styles */
@@ -255,7 +224,7 @@ p {
 .timeline-title {
     color: var(--white);
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -316,23 +285,7 @@ p {
     border: var(--border);
 }
 
-@media (max-width: 768px) {
-    .timeline-item {
-        margin-left: 20px;
-    }
-
-    .timeline-item::before {
-        left: -26px;
-    }
-
-    .timeline-title {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
-
 /* Skills Section*/
-
 .skills {
     padding: 100px 0;
     background: var(--black);
@@ -452,13 +405,18 @@ footer {
         padding: 120px 0 80px;
     }
 
-    .project-grid {
-        grid-template-columns: 1fr;
+    .timeline-item {
+        margin-left: 20px;
+        padding: 1.5rem;
     }
 
-    .timeline-item {
-        margin-left: 1.5rem;
-        padding: 1.5rem;
+    .timeline-item::before {
+        left: -26px;
+    }
+
+    .timeline-title {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
@@ -483,7 +441,6 @@ footer {
         background: white;
     }
 
-    .project-card,
     .timeline-item,
     .skill-category {
         break-inside: avoid;
