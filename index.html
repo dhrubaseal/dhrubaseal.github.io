@@ -3,237 +3,472 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dhruba Jyoti Seal - Machine Learning Engineer specializing in AI, Computer Vision, and Natural Language Processing">
-    <title>Dhruba Jyoti Seal - Machine Learning Engineer</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Dhruba Jyoti Seal - Artificial Intelligence Engineer specializing in LLMs, RAG Systems, Cyber Security, Computer Vision, and NLP">
+    <title>Dhruba Jyoti Seal — AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav-container">
-            <div class="logo">DS</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
+
+    <header class="site-header" id="site-header">
+        <nav class="nav-inner">
+            <a href="#home" class="nav-logo">DJS</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+
         <section id="home" class="hero">
+            <div class="hero-bg"></div>
             <div class="hero-content">
-                <h1>Dhruba Jyoti Seal</h1>
-                <p class="tagline">Machine Learning Engineer</p>
-                <div class="hero-summary">
-                    <p>Specializing in Data Science, Machine Learning, Computer Vision & NLP</p>
+                <p class="hero-eyebrow">Artificial Intelligence Engineer</p>
+                <h1 class="hero-name">Dhruba Jyoti Seal</h1>
+                <p class="hero-tagline">Building intelligent systems at the intersection of LLMs, RAG, and Cyber Security</p>
+                <div class="hero-actions">
+                    <a href="#experience" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-ghost">Get in Touch</a>
                 </div>
+                <div class="hero-links">
+                    <a href="https://github.com/dhrubaseal" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dhrubaseal" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:dhrubaseal@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span>Scroll</span>
+                <i class="fas fa-chevron-down"></i>
             </div>
         </section>
 
-        <section id="about" class="about">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <p>Machine Learning Engineer with a strong background in Data Science, Statistics, Machine Learning, Deep Learning, Computer Vision & Natural Language Processing.</p>
-                <div class="certifications">
-                    <h3>Certifications</h3>
-                    <ul>
-                        <li>IBM Data Science Professional Certificate</li>
-                        <li>Google Data Analytics Professional Certificate</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="experience" class="experience">
-            <h2>Professional Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-item">
-                    <h3>Machine Learning Engineer</h3>
-                    <h4>CornerstoneX | Oct 2024 – Nov 2024</h4>
-                    <ul>
-                        <li>Developed multilingual voice assistant supporting 19+ languages using Python, integrating speech recognition, OpenAI's GPT-3.5, and M2M100 translation models</li>
-                        <li>Engineered real-time sign language detection system using YOLO and MediaPipe with MLPClassifier for gesture recognition</li>
-                        <li>Built smart media processing application integrating OpenCV, EasyOCR, and YOLO with real-time audio feedback</li>
-                        <li>Architected virtual dietitian platform using RandomForestRegressor, FAISS, GPT-3.5, and PyTorch</li>
-                        <li>Implemented multithreaded processing architecture for video processing applications</li>
-                        <li>Created responsive GUI applications using Tkinter and Streamlit</li>
-                    </ul>
-                </div>
-                
-                <div class="experience-item">
-                    <h3>Machine Learning Engineer</h3>
-                    <h4>Genie AI | Jun 2024 – Oct 2024</h4>
-                    <ul>
-                        <li>Design, develop, and implement machine learning architectures for AI assistant and other AI applications</li>
-                        <li>Develop NLP chatbot based on proprietary datasets</li>
-                        <li>Train, test, and optimize NLP models to improve understanding and generation of natural language</li>
-                        <li>Collaborate with data scientists and AI researchers to develop innovative algorithms</li>
-                        <li>Integrate machine learning models into production systems</li>
-                        <li>Ensure scalability, reliability, and performance of ML and NLP components</li>
-                        <li>Maintain documentation for ML architectures and NLP models</li>
-                        <li>Stay current with industry trends and emerging technologies</li>
-                        <li>Collaborate with cross-functional teams for AI assistant improvements</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <h3>Machine Learning Engineer</h3>
-                    <h4>Starinco | Sept 2023 – Dec 2023</h4>
-                    <ul>
-                        <li>Proficient in annotation tools such as Labelimg, Labelme, and CVAT for image and video datasets</li>
-                        <li>Managed datasets, including train/validation/test split and markup format translation</li>
-                        <li>Experienced in running computer vision programs for images and videos</li>
-                        <li>Configured workflow models with strong understanding of configuration files</li>
-                        <li>Implemented Linux commands for CUDA drivers and system services</li>
-                        <li>Used ffmpeg for media processing, RTSP streams, and file management</li>
-                        <li>Developed Python scripts for dataset analysis and service integration</li>
-                        <li>Managed dataset augmentations and YOLO training pipelines</li>
-                        <li>Administered RTMIP platform and implemented analytics logic</li>
-                        <li>Performed system administration tasks including disk management and VPN setup</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <h3>System Engineer</h3>
-                    <h4>Tata Consultancy Services | May 2022 – Oct 2022</h4>
-                    <ul>
-                        <li>Used data science techniques to detect and resolve server issues, reducing system downtime</li>
-                        <li>Optimized alarm settings using data analytics, resulting in reduction in false alarms</li>
-                        <li>Implemented predictive analysis for server alarms, improving response times</li>
-                        <li>Developed asset tracking system using data science tools and Power BI Dashboard</li>
-                        <li>Collaborated on data governance policies and standard operating procedures</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <h3>System Engineer</h3>
-                    <h4>Thomson Reuters | Oct 2018 – May 2022</h4>
-                    <ul>
-                        <li>Monitored various systems and tools to ensure proper functioning</li>
-                        <li>Responded to alerts and created tickets following defined processes</li>
-                        <li>Troubleshot and resolved incidents based on established SOPs</li>
-                        <li>Performed regular health checks of systems</li>
-                        <li>Documented defects and maintained knowledge database</li>
-                        <li>Managed shift activities and team handovers</li>
-                        <li>Coordinated with SRE, ISO, and DB teams for knowledge transfer</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <h3>System Security Administrator</h3>
-                    <h4>State Street Global Advisors | Mar 2018 - Sep 2018</h4>
-                    <ul>
-                        <li>Managed user accounts and access on Microsoft Active Directory server-based environment</li>
-                        <li>Administered user and group mailboxes on Microsoft Exchange</li>
-                        <li>Configured secure shared folders with appropriate access controls</li>
-                        <li>Managed access through GPOs and role-based access controls</li>
-                        <li>Created and managed batch and service accounts with on-call support</li>
-                        <li>Managed access across multiple platforms including Oracle, Unix, Sybase, IBM RACF, and Citrix</li>
-                        <li>Managed privileged access to critical financial applications</li>
-                        <li>Onboarded and configured 45+ applications to a centralized tool</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="skills">
-            <h2>Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <p>Python, SQL</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Machine Learning & AI</h3>
-                    <p>TensorFlow, PyTorch, Scikit-learn, OpenAI GPT, YOLO, MediaPipe, MLPClassifier, M2M100</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Data Science & Analytics</h3>
-                    <p>NumPy, Pandas, Real-time Processing, Data Analysis</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Computer Vision</h3>
-                    <p>OpenCV, EasyOCR, Labelimg, CVAT, Labelme, RTMIP</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Data Visualization</h3>
-                    <p>Power BI, Matplotlib, Seaborn</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Development & DevOps</h3>
-                    <p>Git, GitHub, Docker, Kubernetes, Linux, CUDA</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Audio & GUI</h3>
-                    <p>Speech Recognition, gTTS, Tkinter, Streamlit, ffmpeg</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Backend & Infrastructure</h3>
-                    <p>Flask, REST APIs, Multithreading, Queue Management, System Administration</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Financial Tools</h3>
-                    <p>Thomson Reuters Eikon, Refinitiv Workspace</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="education" class="education">
-            <h2>Education</h2>
-            <div class="education-grid">
-                <div class="education-item">
-                    <h3>Bachelor of Technology</h3>
-                    <h4>Electronics and Communications Engineering</h4>
-                    <p>West Bengal University of Technology | Jul 2012 - Aug 2016</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="portfolio" class="portfolio">
-            <h2>Portfolio</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <h3>Jane Street Real-Time Market Data Forecasting</h3>
-                    <p>Predicting financial market responders using real-world data. Developed sophisticated models for real-time market analysis.</p>
-                    <div class="portfolio-links">
-                        <a href="https://github.com/dhrubaseal/jane-street-market-prediction" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-github"></i> View Project
-                        </a>
+        <section id="about" class="section section-light">
+            <div class="container">
+                <div class="section-label">About</div>
+                <h2 class="section-title">A bit about me</h2>
+                <div class="about-layout">
+                    <div class="about-text">
+                        <p>I am an Artificial Intelligence Engineer with a strong background in Data Science, Statistics, Machine Learning, Deep Learning, Computer Vision, and Natural Language Processing. Currently focused on the Cyber Security domain, I build production-grade AI systems that are reliable, scalable, and grounded.</p>
+                        <p>My recent work spans architecting RAG pipelines for GRC compliance platforms, building MCP servers that expose real-time AWS infrastructure to AI assistants, and developing multi-agent orchestration systems using LangGraph and Anthropic Claude.</p>
                     </div>
-                </div>
-                <div class="portfolio-item">
-                    <h3>Football Analytics</h3>
-                    <p>Advanced computer vision project for football game analytics. Implements player tracking, movement analysis, and game statistics.</p>
-                    <div class="portfolio-links">
-                        <a href="https://github.com/dhrubaseal/football-analytics" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-github"></i> View Project
-                        </a>
+                    <div class="about-certs">
+                        <h3>Certifications</h3>
+                        <ul class="cert-list">
+                            <li>
+                                <i class="fas fa-certificate"></i>
+                                <span>IBM Data Science Professional Certificate</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-certificate"></i>
+                                <span>Google Data Analytics Professional Certificate</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
-            <h2>Contact</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <p>Email: dhrubaseal@gmail.com</p>
-                    <p>Phone: +91 8100633627</p>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/dhrubaseal" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/dhrubaseal" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        <section id="experience" class="section section-dark">
+            <div class="container">
+                <div class="section-label">Experience</div>
+                <h2 class="section-title">Professional history</h2>
+                <div class="timeline">
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Artificial Intelligence Engineer</h3>
+                                    <p class="company">Ampcus Cyber</p>
+                                </div>
+                                <span class="timeline-date">May 2025 – Present</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Architected a production RAG pipeline for a GRC compliance platform enabling natural language querying over 7+ frameworks (PCI DSS, ISO 27001, SOC 2, NIST CSF, HIPAA, GDPR, PCI PIN) using Anthropic Claude and OpenAI GPT, achieving 95%+ query accuracy</li>
+                                <li>Designed a multi-provider LLM failover architecture with automatic retry logic ensuring 99%+ AI service availability</li>
+                                <li>Built a dual vector store abstraction layer supporting ChromaDB and Qdrant with configurable local (FastEmbed) and cloud (OpenAI text-embedding-3-large) embeddings</li>
+                                <li>Developed an end-to-end document processing pipeline supporting PDF, DOCX, XLSX, TXT, and images with OCR via OpenAI Vision API and semantic chunking via LangChain</li>
+                                <li>Implemented a stateful LangGraph compliance assessment workflow with heuristic-based routing between Chain-of-Thought and Tree-of-Thought reasoning strategies</li>
+                                <li>Built a production-grade MCP server exposing 43 read-only AWS compliance tools via FastMCP SDK, enabling AI assistants (Cursor, Claude) to query real-time AWS infrastructure across IAM, S3, EC2, VPC, KMS, CloudTrail, GuardDuty, and Security Hub</li>
+                                <li>Architected a DDD modular monolith backend (FastAPI/Python) with 10+ domain modules, MongoDB, Redis, and MinIO; containerized with Docker Compose</li>
+                                <li>Built a cybersecurity intelligence platform aggregating real-time threat data via VirusTotal, GreyNoise, Shodan, and HaveIBeenPwned with LLM-powered summarization and automated CVE scoring</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Machine Learning Engineer</h3>
+                                    <p class="company">CornerstoneX</p>
+                                </div>
+                                <span class="timeline-date">Oct 2024 – Nov 2024</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Developed a multilingual voice assistant supporting 19+ languages using Python, integrating speech recognition, OpenAI GPT-3.5, and M2M100 translation models</li>
+                                <li>Engineered a real-time sign language detection system using YOLO and MediaPipe with MLPClassifier for gesture recognition and GPT-4 integration for natural language responses</li>
+                                <li>Built a smart media processing application integrating OpenCV, EasyOCR, and YOLO with real-time audio feedback via text-to-speech synthesis</li>
+                                <li>Architected a virtual dietitian platform using RandomForestRegressor, FAISS, GPT-3.5, and PyTorch-based neural networks for nutrient optimization</li>
+                                <li>Implemented multithreaded processing using Python's threading and queue systems for smooth real-time video performance</li>
+                                <li>Created responsive GUI applications using Tkinter and Streamlit with real-time visualization and efficient state management</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Machine Learning Engineer</h3>
+                                    <p class="company">Genie AI</p>
+                                </div>
+                                <span class="timeline-date">Jun 2024 – Oct 2024</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Designed and implemented machine learning architectures for an AI assistant and related applications</li>
+                                <li>Developed an NLP chatbot trained on proprietary datasets</li>
+                                <li>Trained, tested, and optimized NLP models to improve understanding and generation of natural language</li>
+                                <li>Collaborated with data scientists and AI researchers to develop innovative algorithms for AI assistant capabilities</li>
+                                <li>Integrated machine learning models into production systems ensuring scalability, reliability, and performance</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>Machine Learning Engineer</h3>
+                                    <p class="company">Starinco</p>
+                                </div>
+                                <span class="timeline-date">Sept 2023 – Dec 2023</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Proficient with annotation tools Labelimg, Labelme, and CVAT for image and video datasets</li>
+                                <li>Managed datasets including train/validation/test splits and markup format translation</li>
+                                <li>Administered RTMIP platform and implemented analytics logic, camera management, and neural services</li>
+                                <li>Managed YOLO dataset augmentations and training pipelines</li>
+                                <li>Used ffmpeg for slicing, format translation, RTSP stream handling, and file management</li>
+                                <li>Performed system administration tasks including disk management and VPN setup</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>System Engineer</h3>
+                                    <p class="company">Tata Consultancy Services</p>
+                                </div>
+                                <span class="timeline-date">May 2022 – Oct 2022</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Used data science techniques to detect and resolve server issues, reducing system downtime</li>
+                                <li>Optimized alarm settings using data analytics, resulting in a reduction in false alarms</li>
+                                <li>Implemented predictive analysis for server alarms, improving response times</li>
+                                <li>Developed an asset tracking system and Power BI Dashboard for infrastructure visibility</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>System Engineer</h3>
+                                    <p class="company">Refinitiv, an LSEG business</p>
+                                </div>
+                                <span class="timeline-date">Oct 2018 – May 2022</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Monitored various systems and tools to ensure proper functioning</li>
+                                <li>Troubleshot and resolved incidents based on established standard operating procedures</li>
+                                <li>Performed regular system health checks and managed shift handovers</li>
+                                <li>Coordinated with SRE, ISO, and DB teams for knowledge transfer</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3>System Security Administrator</h3>
+                                    <p class="company">State Street Global Advisors</p>
+                                </div>
+                                <span class="timeline-date">Mar 2018 – Sep 2018</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Managed user accounts and access on Microsoft Active Directory in a server-based environment</li>
+                                <li>Managed access through GPOs and role-based access controls for multiple role-specific groups</li>
+                                <li>Managed authorized access across Oracle, Unix, Sybase, IBM RACF, and Citrix XenApp platforms</li>
+                                <li>Onboarded and configured 45+ applications to a centralized identity management tool</li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
+
+        <section id="skills" class="section section-light">
+            <div class="container">
+                <div class="section-label">Skills</div>
+                <h2 class="section-title">Technical expertise</h2>
+                <div class="skills-grid">
+
+                    <div class="skill-block reveal">
+                        <h3>AI / LLMs</h3>
+                        <div class="tag-group">
+                            <span class="tag">RAG Systems</span>
+                            <span class="tag">LangGraph</span>
+                            <span class="tag">LangChain</span>
+                            <span class="tag">Semantic Chunking</span>
+                            <span class="tag">Claude / Anthropic</span>
+                            <span class="tag">GPT-4 / OpenAI</span>
+                            <span class="tag">Ollama</span>
+                            <span class="tag">Multi-Agent Orchestration</span>
+                            <span class="tag">MCP Servers (FastMCP)</span>
+                            <span class="tag">Chain-of-Thought</span>
+                            <span class="tag">Tree-of-Thought</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>Vector DBs & Embeddings</h3>
+                        <div class="tag-group">
+                            <span class="tag">ChromaDB</span>
+                            <span class="tag">Qdrant</span>
+                            <span class="tag">FAISS</span>
+                            <span class="tag">FastEmbed</span>
+                            <span class="tag">OpenAI Embeddings</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>Machine Learning</h3>
+                        <div class="tag-group">
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">MLPClassifier</span>
+                            <span class="tag">RandomForestRegressor</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>Computer Vision</h3>
+                        <div class="tag-group">
+                            <span class="tag">YOLO</span>
+                            <span class="tag">MediaPipe</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">EasyOCR</span>
+                            <span class="tag">Labelimg</span>
+                            <span class="tag">CVAT</span>
+                            <span class="tag">Labelme</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>Backend & APIs</h3>
+                        <div class="tag-group">
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">SQLAlchemy</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">asyncio</span>
+                            <span class="tag">Multithreading</span>
+                            <span class="tag">JWT</span>
+                            <span class="tag">OTP Systems</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>Databases & Storage</h3>
+                        <div class="tag-group">
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Redis</span>
+                            <span class="tag">MinIO</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>DevOps & Cloud</h3>
+                        <div class="tag-group">
+                            <span class="tag">Docker</span>
+                            <span class="tag">Docker Compose</span>
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>AWS Security</h3>
+                        <div class="tag-group">
+                            <span class="tag">IAM</span>
+                            <span class="tag">S3</span>
+                            <span class="tag">EC2</span>
+                            <span class="tag">VPC</span>
+                            <span class="tag">KMS</span>
+                            <span class="tag">CloudTrail</span>
+                            <span class="tag">GuardDuty</span>
+                            <span class="tag">Security Hub</span>
+                            <span class="tag">boto3</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>Threat Intelligence</h3>
+                        <div class="tag-group">
+                            <span class="tag">VirusTotal</span>
+                            <span class="tag">GreyNoise</span>
+                            <span class="tag">Shodan</span>
+                            <span class="tag">HaveIBeenPwned</span>
+                            <span class="tag">CVE Analysis</span>
+                            <span class="tag">Threat Scoring</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>Frontend & Data</h3>
+                        <div class="tag-group">
+                            <span class="tag">React</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">Tkinter</span>
+                            <span class="tag">NumPy</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Matplotlib</span>
+                            <span class="tag">Seaborn</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>Audio & Media</h3>
+                        <div class="tag-group">
+                            <span class="tag">Speech Recognition</span>
+                            <span class="tag">gTTS</span>
+                            <span class="tag">M2M100</span>
+                            <span class="tag">ffmpeg</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-block reveal">
+                        <h3>Languages & Platforms</h3>
+                        <div class="tag-group">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Thomson Reuters Eikon</span>
+                            <span class="tag">Refinitiv Workspace</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section section-dark">
+            <div class="container">
+                <div class="section-label">Portfolio</div>
+                <h2 class="section-title">Selected projects</h2>
+                <div class="projects-grid">
+
+                    <div class="project-card reveal">
+                        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Jane Street Real-Time Market Data Forecasting</h3>
+                        <p>Predicting financial market responders using real-world data. Developed sophisticated models for real-time market analysis using advanced ML techniques.</p>
+                        <a href="https://github.com/dhrubaseal/jane-street-market-prediction" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+
+                    <div class="project-card reveal">
+                        <div class="project-icon"><i class="fas fa-futbol"></i></div>
+                        <h3>Football Analytics</h3>
+                        <p>Advanced computer vision project for football game analytics. Implements player tracking, movement analysis, and game statistics using YOLO and OpenCV.</p>
+                        <a href="https://github.com/dhrubaseal/football-analytics" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section section-light">
+            <div class="container">
+                <div class="section-label">Education</div>
+                <h2 class="section-title">Academic background</h2>
+                <div class="education-card reveal">
+                    <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="education-info">
+                        <h3>Bachelor of Technology</h3>
+                        <p class="edu-field">Electronics and Communications Engineering</p>
+                        <p class="edu-institution">West Bengal University of Technology</p>
+                        <p class="edu-date">Jul 2012 – Aug 2016</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-contact">
+            <div class="container">
+                <div class="section-label">Contact</div>
+                <h2 class="section-title">Get in touch</h2>
+                <p class="contact-sub">Open to opportunities and collaborations. Feel free to reach out.</p>
+                <div class="contact-grid">
+                    <a href="mailto:dhrubaseal@gmail.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <span>dhrubaseal@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/dhrubaseal" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/dhrubaseal</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dhrubaseal" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>linkedin.com/in/dhrubaseal</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-    <footer>
-        <p>&copy; <span id="current-year"></span> Dhruba Jyoti Seal. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Dhruba Jyoti Seal. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="js/main.js"></script>
