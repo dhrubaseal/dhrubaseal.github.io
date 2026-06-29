@@ -9,11 +9,15 @@ const toggle = document.getElementById('nav-toggle');
 const navLinks = document.getElementById('nav-links');
 
 toggle.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
+    const open = navLinks.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
 });
 
 navLinks.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => navLinks.classList.remove('open'));
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+    });
 });
 
 const observer = new IntersectionObserver((entries) => {

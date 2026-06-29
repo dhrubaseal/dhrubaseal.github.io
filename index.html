@@ -5,18 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dhruba Jyoti Seal - Artificial Intelligence Engineer specializing in LLMs, RAG Systems, Cyber Security, Computer Vision, and NLP">
     <title>Dhruba Jyoti Seal — AI Engineer</title>
+
+    <link rel="canonical" href="https://dhrubaseal.github.io">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dhruba Jyoti Seal — AI Engineer">
+    <meta property="og:description" content="Artificial Intelligence Engineer building intelligent systems at the intersection of LLMs, RAG, and Cyber Security.">
+    <meta property="og:url" content="https://dhrubaseal.github.io">
+    <meta property="og:image" content="https://dhrubaseal.github.io/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dhruba Jyoti Seal — AI Engineer">
+    <meta name="twitter:description" content="Artificial Intelligence Engineer building intelligent systems at the intersection of LLMs, RAG, and Cyber Security.">
+    <meta name="twitter:image" content="https://dhrubaseal.github.io/og-image.png">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dhruba Jyoti Seal",
+        "jobTitle": "Artificial Intelligence Engineer",
+        "url": "https://dhrubaseal.github.io",
+        "email": "mailto:dhrubaseal@gmail.com",
+        "sameAs": [
+            "https://github.com/dhrubaseal",
+            "https://www.linkedin.com/in/dhrubaseal"
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "West Bengal University of Technology"
+        },
+        "knowsAbout": [
+            "Large Language Models",
+            "Retrieval-Augmented Generation",
+            "Cyber Security",
+            "Machine Learning",
+            "Computer Vision",
+            "Natural Language Processing"
+        ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
 </head>
 <body>
+
+    <a href="#about" class="skip-link">Skip to content</a>
 
     <header class="site-header" id="site-header">
         <nav class="nav-inner">
             <a href="#home" class="nav-logo">DJS</a>
-            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links" id="nav-links">
@@ -40,6 +90,9 @@
                 <p class="hero-tagline">Building intelligent systems at the intersection of LLMs, RAG, and Cyber Security</p>
                 <div class="hero-actions">
                     <a href="#experience" class="btn btn-primary">View My Work</a>
+                    <a href="documents/dhruba_jyoti_seal_curriculum_vitae.pdf" download class="btn btn-ghost">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
                     <a href="#contact" class="btn btn-ghost">Get in Touch</a>
                 </div>
                 <div class="hero-links">
@@ -421,6 +474,36 @@
                         </a>
                     </div>
 
+                    <div class="project-card reveal">
+                        <div class="project-icon"><i class="fas fa-shield-halved"></i></div>
+                        <h3>GRC Compliance RAG Platform</h3>
+                        <p>Production RAG pipeline enabling natural-language querying over 7+ compliance frameworks (PCI DSS, ISO 27001, SOC 2, NIST CSF, HIPAA, GDPR), with multi-provider LLM failover and a dual ChromaDB/Qdrant vector store.</p>
+                        <!-- TODO: replace # with the GitHub repo URL -->
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+
+                    <div class="project-card reveal">
+                        <div class="project-icon"><i class="fas fa-server"></i></div>
+                        <h3>AWS Compliance MCP Server</h3>
+                        <p>Production-grade MCP server exposing 43 read-only AWS compliance tools via the FastMCP SDK, letting AI assistants query real-time infrastructure across IAM, S3, EC2, VPC, KMS, CloudTrail, GuardDuty, and Security Hub.</p>
+                        <!-- TODO: replace # with the GitHub repo URL -->
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+
+                    <div class="project-card reveal">
+                        <div class="project-icon"><i class="fas fa-bug"></i></div>
+                        <h3>Threat Intelligence Platform</h3>
+                        <p>Cybersecurity intelligence platform aggregating real-time threat data from VirusTotal, GreyNoise, Shodan, and HaveIBeenPwned, with LLM-powered summarization and automated CVE scoring.</p>
+                        <!-- TODO: replace # with the GitHub repo URL -->
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -458,6 +541,10 @@
                     <a href="https://www.linkedin.com/in/dhrubaseal" target="_blank" rel="noopener noreferrer" class="contact-card">
                         <i class="fab fa-linkedin-in"></i>
                         <span>linkedin.com/in/dhrubaseal</span>
+                    </a>
+                    <a href="documents/dhruba_jyoti_seal_curriculum_vitae.pdf" download class="contact-card">
+                        <i class="fas fa-file-arrow-down"></i>
+                        <span>Download CV (PDF)</span>
                     </a>
                 </div>
             </div>

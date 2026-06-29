@@ -47,6 +47,28 @@ ul { list-style: none; }
     padding: 0 2rem;
 }
 
+/* ── SKIP LINK ────────────────────────────────────────── */
+
+.skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -100px;
+    z-index: 200;
+    padding: 0.6rem 1.1rem;
+    background: var(--accent);
+    color: var(--white);
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+    transition: top var(--transition);
+}
+
+.skip-link:focus {
+    top: 1rem;
+    outline: 2px solid var(--white);
+    outline-offset: 2px;
+}
+
 /* ── NAV ──────────────────────────────────────────────── */
 
 .site-header {
@@ -732,6 +754,24 @@ ul { list-style: none; }
 .reveal.visible {
     opacity: 1;
     transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+
+    .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+
+    .hero-scroll { animation: none; }
+
+    * {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
 }
 
 /* ── RESPONSIVE ───────────────────────────────────────── */
