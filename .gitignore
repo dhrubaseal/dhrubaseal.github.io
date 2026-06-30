@@ -1,5 +1,5 @@
-# Directory
-documents/
+# Directory (ignore everything except the published CV)
+documents/*
 
 # System Files
 .DS_Store
@@ -47,3 +47,6 @@ yarn-error.log*
 *.pdf
 *.doc
 *.docx
+
+# Keep the published CV so the portal's download link works on GitHub Pages
+!documents/dhruba_jyoti_seal_curriculum_vitae.pdf

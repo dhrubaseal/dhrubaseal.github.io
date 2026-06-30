@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Dhruba Jyoti Seal monogram">
+  <defs>
+    <linearGradient id="djs-stroke" x1="9" y1="6" x2="55" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="djs-node" x1="20" y1="18" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93c5fd"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagonal shield: cyber security -->
+  <path d="M32 4 L54.5 17 L54.5 47 L32 60 L9.5 47 L9.5 17 Z"
+        fill="#3b82f6" fill-opacity="0.06"
+        stroke="url(#djs-stroke)" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Neural connections: AI + forward-pointing 'D' monogram -->
+  <g stroke="url(#djs-stroke)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 21 L24 43"/>
+    <path d="M24 21 L43 32"/>
+    <path d="M24 43 L43 32"/>
+  </g>
+
+  <!-- Nodes -->
+  <circle cx="24" cy="21" r="3.6" fill="url(#djs-node)"/>
+  <circle cx="24" cy="43" r="3.6" fill="url(#djs-node)"/>
+  <circle cx="43" cy="32" r="4.6" fill="#60a5fa"/>
+</svg>

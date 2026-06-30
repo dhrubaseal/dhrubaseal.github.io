@@ -1,18 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Dhruba Jyoti Seal — AI Engineer">
   <defs>
     <radialGradient id="glow" cx="50%" cy="0%" r="80%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
-      <stop offset="70%" stop-color="#0d1b2a" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#0a131f" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glow2" cx="85%" cy="90%" r="55%">
+      <stop offset="0%" stop-color="#1e40af" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0a131f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="markStroke" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
   </defs>
-  <rect width="1200" height="630" fill="#0d1b2a"/>
+
+  <rect width="1200" height="630" fill="#0a131f"/>
   <rect width="1200" height="630" fill="url(#glow)"/>
-  <text x="80" y="250" font-family="'Sora','Segoe UI',sans-serif" font-weight="700"
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- Logo mark -->
+  <g transform="translate(56, 52) scale(2.1)" fill="none">
+    <path d="M32 4 L54.5 17 L54.5 47 L32 60 L9.5 47 L9.5 17 Z" fill="#3b82f6" fill-opacity="0.06" stroke="url(#markStroke)" stroke-width="2.5" stroke-linejoin="round"/>
+    <g stroke="url(#markStroke)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M24 21 L24 43"/>
+      <path d="M24 21 L43 32"/>
+      <path d="M24 43 L43 32"/>
+    </g>
+    <circle cx="24" cy="21" r="3.6" fill="#60a5fa"/>
+    <circle cx="24" cy="43" r="3.6" fill="#60a5fa"/>
+    <circle cx="43" cy="32" r="4.6" fill="#60a5fa"/>
+  </g>
+
+  <text x="205" y="120" font-family="'Sora','Segoe UI',sans-serif" font-weight="700"
+        font-size="46" letter-spacing="4" fill="#ffffff">DJS</text>
+
+  <text x="80" y="300" font-family="'Sora','Segoe UI',sans-serif" font-weight="700"
         font-size="34" letter-spacing="6" fill="#3b82f6">ARTIFICIAL INTELLIGENCE ENGINEER</text>
-  <text x="76" y="360" font-family="'Sora','Segoe UI',sans-serif" font-weight="700"
+  <text x="76" y="410" font-family="'Sora','Segoe UI',sans-serif" font-weight="700"
         font-size="92" fill="#ffffff">Dhruba Jyoti Seal</text>
-  <text x="80" y="440" font-family="'Inter','Segoe UI',sans-serif" font-weight="400"
-        font-size="34" fill="#94a3b8">Building intelligent systems · LLMs · RAG · Cyber Security</text>
-  <text x="80" y="560" font-family="'Inter','Segoe UI',sans-serif" font-weight="500"
-        font-size="28" fill="#64748b">dhrubaseal.github.io</text>
+  <text x="80" y="490" font-family="'Inter','Segoe UI',sans-serif" font-weight="400"
+        font-size="33" fill="#94a3b8">Building intelligent systems at the intersection of</text>
+  <text x="80" y="535" font-family="'Inter','Segoe UI',sans-serif" font-weight="400"
+        font-size="33" fill="#94a3b8">Artificial Intelligence and Cyber Security</text>
+
+  <text x="1120" y="588" text-anchor="end" font-family="'Inter','Segoe UI',sans-serif" font-weight="500"
+        font-size="26" fill="#64748b">dhrubaseal.github.io</text>
 </svg>

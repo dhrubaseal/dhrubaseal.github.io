@@ -1,6 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DJS">
-  <rect width="64" height="64" rx="14" fill="#0d1b2a"/>
-  <text x="50%" y="50%" dy="0.02em" text-anchor="middle" dominant-baseline="central"
-        font-family="'Sora','Segoe UI',sans-serif" font-weight="700" font-size="26"
-        letter-spacing="0.5" fill="#3b82f6">DJS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="DJS">
+  <defs>
+    <linearGradient id="fav-stroke" x1="14" y1="12" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="fav-node" x1="22" y1="20" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93c5fd"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="14" fill="#0a131f"/>
+
+  <!-- Hexagonal shield -->
+  <path d="M32 9 L49 19 L49 41 L32 51 L15 41 L15 19 Z"
+        fill="#3b82f6" fill-opacity="0.08"
+        stroke="url(#fav-stroke)" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- Neural monogram -->
+  <g stroke="url(#fav-stroke)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 22 L26 38"/>
+    <path d="M26 22 L40 30"/>
+    <path d="M26 38 L40 30"/>
+  </g>
+  <circle cx="26" cy="22" r="3" fill="url(#fav-node)"/>
+  <circle cx="26" cy="38" r="3" fill="url(#fav-node)"/>
+  <circle cx="40" cy="30" r="3.8" fill="#60a5fa"/>
 </svg>
